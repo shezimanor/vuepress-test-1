@@ -29,7 +29,7 @@ jobs:
 
       # 運行建構腳本
       - name: Build VuePress site
-        run: pnpm docs:build
+        run: npm run docs:build
 
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
