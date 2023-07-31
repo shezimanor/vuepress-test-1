@@ -18,6 +18,6 @@
 
 該 token 把 `repo` 和 `workflow` 的權限打開。(記得複製起來，只有一次機會，之後重開都要拿新的)。
 
-再到目標 Repo > Settings > Secrets and variables > Actions > Newrepository secret
+再到目標 Repo > Settings > Secrets and variables > Actions > New repository secret
 
 把取得的 token 新增進去，`.yml` 就會吃到他了。
